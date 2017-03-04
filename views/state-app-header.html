@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+    <h1>State Finder Application</h1>
+    <p class="display">This is a sample app just select the country and see all the states in it</p>
+</div>
+
+<hr>
+
+<div class="well well-lg">
+    <div class="row">
+        <div class="col-sm-6">
+            <select class="form-control" ng-model="countryCode" ng-change="changeCountry()">
+                <option value="IND" selected >India</option>
+                <option value="USA">United States America</option>
+
+            </select>
+        </div>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="Search Here..!!" ng-model="searchQuery">
+        </div>
+    </div>
+</div>
+
+<hr>
